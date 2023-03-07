@@ -1,0 +1,9 @@
+H:\C#-&-Godot\21Hexagons\.mono\temp\bin\ExportRelease\21Hexagons.dll
+H:\C#-&-Godot\21Hexagons\.mono\temp\bin\ExportRelease\21Hexagons.pdb
+H:\C#-&-Godot\21Hexagons\.mono\temp\obj\ExportRelease\21Hexagons.csproj.AssemblyReference.cache
+H:\C#-&-Godot\21Hexagons\.mono\temp\obj\ExportRelease\21Hexagons.GeneratedMSBuildEditorConfig.editorconfig
+H:\C#-&-Godot\21Hexagons\.mono\temp\obj\ExportRelease\21Hexagons.AssemblyInfoInputs.cache
+H:\C#-&-Godot\21Hexagons\.mono\temp\obj\ExportRelease\21Hexagons.AssemblyInfo.cs
+H:\C#-&-Godot\21Hexagons\.mono\temp\obj\ExportRelease\21Hexagons.csproj.CoreCompileInputs.cache
+H:\C#-&-Godot\21Hexagons\.mono\temp\obj\ExportRelease\21Hexagons.dll
+H:\C#-&-Godot\21Hexagons\.mono\temp\obj\ExportRelease\21Hexagons.pdb
