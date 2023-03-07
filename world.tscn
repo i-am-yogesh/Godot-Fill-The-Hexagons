@@ -1,0 +1,440 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://world.cs" type="Script" id=1]
+[ext_resource path="res://fonts/Xolonium-Regular.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 25
+use_filter = true
+font_data = ExtResource( 2 )
+
+[node name="world" type="Node"]
+script = ExtResource( 1 )
+
+[node name="hexa-3" type="Polygon2D" parent="." groups=["polygons"]]
+position = Vector2( -32, -72 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.996078, 0.996078, 0.996078, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-3"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 179.0
+rect_scale = Vector2( 0.984801, 1 )
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-10" type="Polygon2D" parent="."]
+position = Vector2( 120, 8 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.6, 0.6, 0.764706, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 160, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-10"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 294.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-7" type="Polygon2D" parent="."]
+position = Vector2( -192, 8 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.996078, 0.764706, 0.262745, 1 )
+antialiased = true
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-7"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 179.0
+rect_scale = Vector2( 1.0052, 1 )
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-1" type="Polygon2D" parent="."]
+position = Vector2( -240, -96 )
+scale = Vector2( 1.25, 1.375 )
+color = Color( 0.996078, 0.996078, 0.996078, 1 )
+antialiased = true
+polygon = PoolVector2Array( 256, 128, 217.6, 145.455, 217.6, 180.364, 256, 197.818, 294.4, 180.364, 294.4, 145.455 )
+
+[node name="Label" type="Label" parent="hexa-1"]
+margin_left = 218.0
+margin_top = 145.0
+margin_right = 295.0
+margin_bottom = 181.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-11" type="Polygon2D" parent="."]
+position = Vector2( 224, 8 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.482353, 0.54902, 0.870588, 1 )
+antialiased = true
+polygon = PoolVector2Array( 256, 121.6, 216.8, 140.8, 216.8, 179.2, 256, 198.4, 293.6, 179.2, 293.6, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-11"]
+margin_left = 217.0
+margin_top = 141.0
+margin_right = 294.0
+margin_bottom = 179.0
+rect_scale = Vector2( 1, 0.980853 )
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-4" type="Polygon2D" parent="."]
+position = Vector2( 72, -72 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.921569, 0.533333, 0.686275, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-4"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 180.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-2" type="Polygon2D" parent="."]
+position = Vector2( -136, -72 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.921569, 0.533333, 0.686275, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-2"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 294.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-9" type="Polygon2D" parent="."]
+position = Vector2( 16, 8 )
+scale = Vector2( 1.24911, 1.25048 )
+color = Color( 0.501961, 0.901961, 0.941176, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-9"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-18" type="Polygon2D" parent="."]
+position = Vector2( 120, 168 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.482353, 0.54902, 0.870588, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-18"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 294.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-6" type="Polygon2D" parent="."]
+position = Vector2( 280, -72 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.921569, 0.533333, 0.686275, 1 )
+antialiased = true
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-6"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 180.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-5" type="Polygon2D" parent="."]
+position = Vector2( 176, -72 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.996078, 0.996078, 0.996078, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-5"]
+margin_left = 218.0
+margin_top = 140.0
+margin_right = 295.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-12" type="Polygon2D" parent="."]
+position = Vector2( -136, 88 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.996078, 0.996078, 0.996078, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-12"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-16" type="Polygon2D" parent="."]
+position = Vector2( -88, 168 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.996078, 0.764706, 0.262745, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-16"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-21" type="Polygon2D" parent="."]
+position = Vector2( 16, 328 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.533569, 0.609726, 0.96875, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-21"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 294.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-14" type="Polygon2D" parent="."]
+position = Vector2( 72, 88 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.996078, 0.996078, 0.996078, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-14"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-19" type="Polygon2D" parent="."]
+position = Vector2( -32, 248 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.996078, 0.996078, 0.996078, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-19"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 294.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-13" type="Polygon2D" parent="."]
+position = Vector2( -32, 88 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.486275, 0.870588, 0.482353, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-13"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 294.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-20" type="Polygon2D" parent="."]
+position = Vector2( 72, 248 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.956863, 0.584314, 0.32549, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-20"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-17" type="Polygon2D" parent="."]
+position = Vector2( 16, 168 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.529412, 0.529412, 0.784314, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-17"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 294.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-8" type="Polygon2D" parent="."]
+position = Vector2( -88, 8 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.6, 0.6, 0.764706, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-8"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 294.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[node name="hexa-15" type="Polygon2D" parent="."]
+position = Vector2( 176, 88 )
+scale = Vector2( 1.25, 1.25 )
+color = Color( 0.956863, 0.584314, 0.32549, 1 )
+polygon = PoolVector2Array( 256, 121.6, 217.6, 140.8, 217.6, 179.2, 256, 198.4, 294.4, 179.2, 294.4, 140.8 )
+
+[node name="Label" type="Label" parent="hexa-15"]
+margin_left = 218.0
+margin_top = 141.0
+margin_right = 295.0
+margin_bottom = 179.0
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 0.898039, 0.0980392, 0.0980392, 1 )
+custom_colors/font_color_shadow = Color( 0.329412, 0.321569, 0.321569, 1 )
+custom_fonts/font = SubResource( 1 )
+align = 1
+valign = 1
+
+[connection signal="gui_input" from="hexa-3/Label" to="." method="_on_Label_gui_input" binds= [ 3 ]]
+[connection signal="gui_input" from="hexa-10/Label" to="." method="_on_Label_gui_input" binds= [ 10 ]]
+[connection signal="gui_input" from="hexa-7/Label" to="." method="_on_Label_gui_input" binds= [ 7 ]]
+[connection signal="gui_input" from="hexa-1/Label" to="." method="_on_Label_gui_input" binds= [ 1 ]]
+[connection signal="gui_input" from="hexa-11/Label" to="." method="_on_Label_gui_input" binds= [ 11 ]]
+[connection signal="gui_input" from="hexa-4/Label" to="." method="_on_Label_gui_input" binds= [ 4 ]]
+[connection signal="gui_input" from="hexa-2/Label" to="." method="_on_Label_gui_input" binds= [ 2 ]]
+[connection signal="gui_input" from="hexa-9/Label" to="." method="_on_Label_gui_input" binds= [ 9 ]]
+[connection signal="gui_input" from="hexa-18/Label" to="." method="_on_Label_gui_input" binds= [ 18 ]]
+[connection signal="gui_input" from="hexa-6/Label" to="." method="_on_Label_gui_input" binds= [ 6 ]]
+[connection signal="gui_input" from="hexa-5/Label" to="." method="_on_Label_gui_input" binds= [ 5 ]]
+[connection signal="gui_input" from="hexa-12/Label" to="." method="_on_Label_gui_input" binds= [ 12 ]]
+[connection signal="gui_input" from="hexa-16/Label" to="." method="_on_Label_gui_input" binds= [ 16 ]]
+[connection signal="gui_input" from="hexa-21/Label" to="." method="_on_Label_gui_input" binds= [ 21 ]]
+[connection signal="gui_input" from="hexa-14/Label" to="." method="_on_Label_gui_input" binds= [ 14 ]]
+[connection signal="gui_input" from="hexa-19/Label" to="." method="_on_Label_gui_input" binds= [ 19 ]]
+[connection signal="gui_input" from="hexa-13/Label" to="." method="_on_Label_gui_input" binds= [ 13 ]]
+[connection signal="gui_input" from="hexa-20/Label" to="." method="_on_Label_gui_input" binds= [ 20 ]]
+[connection signal="gui_input" from="hexa-17/Label" to="." method="_on_Label_gui_input" binds= [ 17 ]]
+[connection signal="gui_input" from="hexa-8/Label" to="." method="_on_Label_gui_input" binds= [ 8 ]]
+[connection signal="gui_input" from="hexa-15/Label" to="." method="_on_Label_gui_input" binds= [ 15 ]]
